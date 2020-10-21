@@ -1,0 +1,37 @@
+body {
+  font-family:fantasy;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background: linear-gradient(to right, #ff512f, #f09819); 
+  color: #ff512f;
+}
+
+img {
+  height: 200px;
+  border-radius: 50%;
+}
+
+.card {
+  background: white;
+  padding: 8px;
+  box-shadow: 8px 8px black;
+}
+
+a {
+color: purple;
+}
+
+a:hover {
+  opacity: .75;
+}
+
+.dark {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+
+.dark .card {
+  background: linear-gradient(to right, #654ea3, #eaafc8);
+}
